@@ -1,0 +1,72 @@
+etape 1 :
+« Nous avons utilisé le dataset Cardiovascular Disease Dataset provenant de Kaggle.
+Il contient des informations médicales telles que l’âge, la pression artérielle, le cholestérol et les habitudes de vie.
+La variable cible cardio indique la présence ou non d’une maladie cardiovasculaire. »
+etape 2 :
+« Les données ont été nettoyées afin de supprimer les valeurs aberrantes et incohérentes.
+L’âge a été converti de jours en années et l’indice de masse corporelle (IMC) a été calculé à partir du poids et de la taille.
+Les variables inutiles ont été supprimées afin d’améliorer la qualité du modèle. »
+
+Après l’étape de nettoyage, le dataset final contient 68 652 observations et 13 variables.
+Aucune valeur manquante n’a été détectée.
+Les données ont été enrichies par la création de nouvelles variables telles que l’âge en années et l’indice de masse corporelle (IMC).
+Ce prétraitement garantit une meilleure qualité des données pour l’apprentissage des modèles de prédiction. »
+
+ÉTAPE 3
+
+« L’analyse exploratoire des données a permis d’identifier les principales relations entre les variables médicales et la maladie cardiovasculaire.
+Les résultats montrent que l’âge, l’IMC et la pression artérielle sont fortement liés à la présence de maladies cardiovasculaires.
+Ces observations confirment la pertinence des variables utilisées pour l’apprentissage du modèle. »
+
+Conclusion finale de l’ÉTAPE 3
+
+
+« L’analyse exploratoire des données a permis d’identifier les principaux facteurs associés aux maladies cardiovasculaires.
+Les résultats confirment la pertinence des données utilisées et justifient l’application de modèles de Machine Learning pour la prédiction du risque cardiovasculaire. »
+
+ÉTAPE 4
+
+« Les données ont été séparées en ensembles d’entraînement et de test avec un ratio de 80 % / 20 %.
+Une normalisation a été appliquée afin de mettre toutes les variables sur la même échelle, ce qui améliore les performances des modèles de Machine Learning. »
+
+validation Étape 4
+
+« Le jeu de données a été divisé en un ensemble d’apprentissage contenant 54 921 observations et un ensemble de test contenant 13 731 observations.
+Chaque observation est décrite par 12 variables explicatives.
+Une normalisation des données a été appliquée afin d’améliorer les performances des modèles de Machine Learning. »
+
+ÉTAPE 5
+
+« Deux modèles de Machine Learning ont été entraînés : une régression logistique et une forêt aléatoire.
+Les résultats montrent que le modèle Random Forest offre de meilleures performances en termes de précision, ce qui justifie son choix pour la prédiction du risque cardiovasculaire. »
+
+le rapport – ÉTAPE 5
+
+« Deux modèles ont été entraînés et comparés : une régression logistique et une forêt aléatoire.
+Les résultats montrent que la régression logistique offre de meilleures performances avec une précision globale de 72 %.
+De plus, ce modèle présente l’avantage d’être interprétable, ce qui est essentiel dans le domaine médical.
+Ainsi, la régression logistique a été retenue pour la prédiction du risque cardiovasculaire. »
+
+ÉTAPE 6
+
+« L’évaluation avancée du modèle de régression logistique a été réalisée à l’aide d’une matrice de confusion et d’une courbe ROC.
+Les résultats montrent une bonne capacité du modèle à distinguer les patients à risque de maladies cardiovasculaires, avec une valeur d’AUC satisfaisante.
+Ces performances confirment la pertinence du modèle pour la prédiction du risque cardiovasculaire. »
+
+ÉTAPE 6 :
+
+📄 Matrice de confusion
+
+« La matrice de confusion montre que le modèle est capable de détecter correctement une majorité de patients atteints de maladies cardiovasculaires.
+Bien que certains faux négatifs subsistent, les résultats restent satisfaisants pour une application de prédiction du risque cardiovasculaire. »
+
+📄 Courbe ROC
+
+« La courbe ROC obtenue présente une aire sous la courbe (AUC) de 0.78, indiquant une bonne capacité du modèle à discriminer les patients à risque des patients sains.
+Ce résultat confirme la performance et la fiabilité du modèle proposé. »
+
+ÉTAPE 7
+
+« Une application interactive a été développée à l’aide de Streamlit afin de permettre la prédiction du risque cardiovasculaire en temps réel.
+L’utilisateur saisit ses informations médicales, et le modèle de régression logistique fournit une estimation du risque accompagnée d’une probabilité.
+Cette application illustre une utilisation concrète de l’intelligence artificielle dans le domaine de la santé.
